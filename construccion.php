@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html  lang="es">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -100,7 +100,7 @@ and open the template in the editor.
         <div id="parallaxConstruccion" data-stellar-background-ratio="0.5">
             <ol id="listaConstruccion" class="wow fadeIn">
                 <li>"Asesor&iacute;a a la Inspecci&oacute;n Fiscal Contratos de Conservaci&oacute;n Global de Caminos de San Clemente y Otras Comunas, Etapa V; y Curepto y Otras Comunas, etapa VI", para la Direcci&oacute;n Regional de vialidad VII regi&oacute;n, MOP.</li>                                            
-                <li>"Inspecci&oacute;n T&eacute;cnica a la Explotaci&oacute;n de Obras Aeroportuarias", para la Coordinaci&oacute;n General de Concesiones DGOP MOP."</li></li>
+                <li>"Inspecci&oacute;n T&eacute;cnica a la Explotaci&oacute;n de Obras Aeroportuarias", para la Coordinaci&oacute;n General de Concesiones DGOP MOP."</li>
                 <li>"Asesor&iacute;a a la Inspecci&oacute;n Fiscal Reposici&oacute;n Pavimento Ruta 5 Sector Los Vientos – Rosario, Tramo Km. 1.235,500 al Km. 1.278,0000 Provincia de Antofagasta II Regi&oacute;n", para la Direcci&oacute;n Regional de Vialidad II Regi&oacute;n, MOP.</li>
                 <li>"Mejoramiento Ruta 60 CH. Villa Dulce – Torquemada, Etapa III, sector Rotonda Miraflores – Rotonda Santa Julia, tramo Km. 2,200 al Km. 4,292, Provincia de Valpara&iacute;so, V Regi&oacute;n", para la Direcci&oacute;n de Vialidad, MOP.</li>
                 <li>"Asesor&iacute;a a la Inspecci&oacute;n Fiscal de Construcci&oacute;n Puente Yalquincha y Accesos sector circunvalaci&oacute;n Ruta 25, Calama tramo Km. 4,701 al Km. 7,480 Provincia de el Loa Regi&oacute;n de Antofagasta", para la Direcci&oacute;n de Vialidad, MOP.</li>

@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="input-field col s12 m12">
                         <i class="material-icons prefix">mode_edit</i>
-                        <textarea id="mensaje" name="mensaje" type="mensaje" class="materialize-textarea"></textarea>
+                        <textarea id="mensaje" name="mensaje" class="materialize-textarea"></textarea>
                         <label for="mensaje">Mensaje</label>
                     </div>
                 </div>

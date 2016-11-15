@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'icomoon';
     src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -13,8 +12,8 @@ body {
     font-weight: 300;
     line-height: 1.8;
     color: #949494;
-    padding: 0px;
-    margin: 0px; 
+    padding: 0;
+    margin: 0; 
 }
 
 #bodyAreas{
@@ -23,8 +22,7 @@ body {
 
 html{
     padding: 0px;
-    margin: 0px;   
-    position: static;
+    margin: 0px;      
 }
 
 body.fh5co-overflow {
@@ -70,8 +68,8 @@ p {
 
 #logoAxioma{
     margin-top: 6%;
-    width: 100%;
-    height: 40px;
+    width: 140px;
+    height: 40px;    
 }
 
 .error{
@@ -134,12 +132,15 @@ p {
     -o-transition: 0.5s;
     transition: 0.5s;
 }
+
 .btn.btn-md {
     padding: 10px 20px !important;
 }
+
 .btn.btn-lg {
     padding: 18px 36px !important;
 }
+
 .btn:hover, .btn:active, .btn:focus {
     box-shadow: none !important;
     outline: none !important;
@@ -150,6 +151,7 @@ p {
     color: #fff;
     border: 2px solid #69c2c8;
 }
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #56bac1 !important;
     border-color: #56bac1 !important;
@@ -271,7 +273,7 @@ p {
 .handHover{
     cursor: pointer;
     color: #fff !important;
-    margin-left: 0px !important;
+    margin-left: 0px ;
 }
 
 hr{
@@ -280,7 +282,7 @@ hr{
 
 #fh5co-home {
     min-height: 200px;
-    height: 670px !important;
+    height: 670px ;
     background-image: url(../images/banner3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -289,7 +291,6 @@ hr{
     -moz-box-shadow: inset -1px -11px 21px -15px rgba(0, 0, 0, 0.75);
     box-shadow: inset -1px -11px 21px -15px rgba(0, 0, 0, 0.75);
     position: relative;
-
 }
 
 #fh5co-home > .container {
@@ -334,7 +335,6 @@ hr{
 .fh5co-main-nav {
     position: relative;
     background: #761c19 !important;   
-
 }
 
 .fh5co-main-nav.fh5co-shadow {
@@ -362,6 +362,7 @@ hr{
     zoom: 1;
     display: inline;
 }
+
 .fh5co-main-nav .fh5co-menu-1 a:hover, .fh5co-main-nav .fh5co-menu-1 a:focus, .fh5co-main-nav .fh5co-menu-1 a:active {
     outline: none;
     text-decoration: none;
@@ -402,11 +403,7 @@ hr{
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
-    .fh5co-heading .heading {
-        font-size: 30px;
-    }
-}
+
 .fh5co-heading .heading:after {
     content: "";
     position: absolute;
@@ -422,11 +419,6 @@ hr{
     line-height: 1.5;
     margin-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
-    .fh5co-heading .sub-heading {
-        font-size: 18px;
-    }
-}
 
 #fh5co-about {
     display: -webkit-box;
@@ -439,18 +431,11 @@ hr{
     -moz-flex-wrap: wrap;
     background: #E8ECF1;
     width: 100%;
-
 }
 
 #fh5co-about .fh5co-2col {
     width: 50%;
 
-}
-
-@media screen and (max-width: 768px) {
-    #fh5co-about .fh5co-2col {
-        width: 100%;
-    }
 }
 
 #fh5co-about .fh5co-2col-inner {
@@ -460,49 +445,20 @@ hr{
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5%;
+}
 
-}
-@media screen and (max-width: 1200px) {
-    #fh5co-about .fh5co-2col-inner {
-        width: 485px;
-    }
-}
-@media screen and (max-width: 992px) {
-    #fh5co-about .fh5co-2col-inner {
-        width: 375px;
-    }
-}
-@media screen and (max-width: 768px) {
-    #fh5co-about .fh5co-2col-inner {
-        width: 100% !important;
-        padding: 2em 0 3em 0;
-    }
-}
 #fh5co-about .fh5co-2col-inner.left {
     float: right;
 }
-@media screen and (max-width: 768px) {
-    #fh5co-about .fh5co-2col-inner.left {
-        float: none;
-    }
-}
+
 #fh5co-about .fh5co-2col-inner.right {
     float: left;
-}
-@media screen and (max-width: 768px) {
-    #fh5co-about .fh5co-2col-inner.right {
-        float: none;
-    }
 }
 
 .fh5co-grid {
     padding-left: 2em;
 }
-@media screen and (max-width: 768px) {
-    .fh5co-grid {
-        padding-left: 0em;
-    }
-}
+
 .fh5co-grid .fh5co-grid-item {
     width: 50%;
     float: left;
@@ -510,23 +466,14 @@ hr{
     background-position: center center;
     background-repeat: no-repeat;
 }
-@media screen and (max-width: 768px) {
-    .fh5co-grid .fh5co-grid-item {
-        height: 300px !important;
-    }
-}
-@media screen and (max-width: 480px) {
-    .fh5co-grid .fh5co-grid-item {
-        width: 100%;
-        height: 200px !important;
-    }
-}
+
 
 .fh5co-tabs-container {
     position: relative; 
     width: 100%;
     margin-left: 10% ;
     margin-top: 6%;
+    padding-bottom: 15%;
 }
 
 .fh5co-tabs-container .fh5co-tabs {
@@ -570,11 +517,7 @@ hr{
     color: #761c19;
     border-bottom: 2px solid #761c19;
 }
-@media screen and (max-width: 480px) {
-    .fh5co-tabs-container .fh5co-tabs li {
-        width: 100%;
-    }
-}
+
 .fh5co-tabs-container .fh5co-tab-content {
     display: none;
     -webkit-transition: 0.5s;
@@ -594,13 +537,6 @@ hr{
 
 .fh5co-tabs-container .fh5co-tab-content p{
     font-size: 80% !important;
-}
-
-@media screen and (max-width: 768px) {
-    .fh5co-tabs-container .fh5co-tab-content {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 }
 
 .gototop {
@@ -645,11 +581,7 @@ hr{
     padding: 7em 0;
 }
 
-@media screen and (max-width: 768px) {
-    #fh5co-services {
-        padding: 5em 0 3em 0;
-    }
-}
+
 #fh5co-services .fh5co-video {  
     position: absolute;
     top: 0;
@@ -811,11 +743,6 @@ hr{
     padding: 3em 0;
     background: #E8ECF1;
 }
-@media screen and (max-width: 768px) {
-    #fh5co-team {
-        padding: 3em 0;
-    }
-}
 
 #fh5co-team img {
     margin-top: 8% !important;
@@ -881,21 +808,7 @@ hr{
     -o-transition: 0.5s;
     transition: 0.5s;
 }
-@media screen and (max-width: 1200px) {
-    #fh5co-gallery .fh5co-item {
-        height: 200px;
-    }
-}
-@media screen and (max-width: 768px) {
-    #fh5co-gallery .fh5co-item {
-        width: 50%;
-    }
-}
-@media screen and (max-width: 480px) {
-    #fh5co-gallery .fh5co-item {
-        width: 100%;
-    }
-}
+
 #fh5co-gallery .fh5co-item .fh5co-overlay {
     position: absolute;
     top: 0;
@@ -910,6 +823,7 @@ hr{
     -o-transition: 0.1s;
     transition: 0.1s;
 }
+
 #fh5co-gallery .fh5co-item .fh5co-copy {
     z-index: 3;
     position: relative;
@@ -918,22 +832,14 @@ hr{
     text-align: center;
     width: 100%;
 }
-@media screen and (max-width: 1200px) {
-    #fh5co-gallery .fh5co-item .fh5co-copy {
-        height: 200px;
-    }
-}
+
 #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner {
     width: 100%;
     height: 300px;
     display: table-cell;
     vertical-align: middle;
 }
-@media screen and (max-width: 1200px) {
-    #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner {
-        height: 200px;
-    }
-}
+
 #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h2, #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner h3 {
     margin: 0;
     padding: 0;
@@ -1099,13 +1005,6 @@ hr{
     color: #69c2c8;
 }
 
-
-@media screen and (max-width: 768px) {
-    #fh5co-offcanvas {
-        display: block;
-    }
-}
-
 .offcanvas-visible #fh5co-offcanvas {
     -moz-transform: translateX(0px);
     -webkit-transform: translateX(0px);
@@ -1117,15 +1016,6 @@ hr{
     transition: 0.5s;
 }
 
-@media screen and (max-width: 768px) {
-    #fh5co-container, #fh5co-footer, .fh5co-nav-toggle {
-        -moz-transform: translateX(0px);
-        -webkit-transform: translateX(0px);
-        -ms-transform: translateX(0px);
-        -o-transform: translateX(0px);
-        transform: translateX(0px);
-    }
-}
 
 .offcanvas-visible #fh5co-container, .offcanvas-visible #fh5co-footer, .offcanvas-visible .fh5co-nav-toggle {
     -moz-transform: translateX(275px);
@@ -1137,12 +1027,6 @@ hr{
 
 .js-sticky {
     display: block;
-}
-
-@media screen and (max-width: 768px) {
-    .js-sticky {
-        display: none;
-    }
 }
 
 .fh5co-nav-toggle {
@@ -1243,12 +1127,6 @@ hr{
     border-radius: 4px;
 }
 
-@media screen and (max-width: 768px) {
-    .fh5co-nav-toggle {
-        display: block;
-    }
-}
-
 .row-padded {
     padding-bottom: 40px;
 }
@@ -1295,17 +1173,8 @@ hr{
     color: #761c19;
 }
 
-
 .btn{
     background-color: #761c19 !important;
-}
-
-@media (max-width: 980px) {
-    .sm{
-        width: 80% !important;
-        margin-left: 10% !important;
-
-    }
 }
 
 .card-content p a:hover{
@@ -1407,6 +1276,10 @@ p{
 .nav-container{
     width: 90%;
     margin: 0 auto;
+}
+
+.img-perfil{
+    width: 100%;
 }
 
 /*----------------------*/
@@ -1518,12 +1391,10 @@ p{
     margin: 0 auto;
     color: white;
     text-align: justify; 
-
 }
 
 .activo{
     content: "";
-
     z-index: -1;  
     background: #fff;
     height: 8px;
@@ -1535,7 +1406,6 @@ p{
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
-
 }
 
 #fh5co-construccion{
@@ -1628,247 +1498,21 @@ input::selection{
     background-color: #761c19;
 }
 
+#sidenav-overlay{
+    display: none;
+}
 
+.button-collapse:focus{
+    color:#888;
+}
+
+.tituloSlide{
+    font-size: 80%;
+    word-break: normal;
+}
 /*------------------------------------*/
 /*          MEDIA QUERY             */
 /*---------------------------------*/
-
-@media (min-width : 320px) and (max-width:359px){
-
-    .fh5co-tab-content{           
-        width: 280px !important;    
-    }    
-
-    .fh5co-tabs{
-        width: 250px !important;        
-    }
-
-    .fh5co-tabs li {  
-        width: 250px;
-        margin: 0 auto;
-        display: block !important;        
-        text-align: center;
-    }
-
-    .imgPerfil{
-        width: 180px !important;
-        margin-left: 3%;
-    }
-
-    #veritas{
-        width: 220px !important;
-        height: auto;
-    }
-
-    #owl-clientes{
-        width: 250px !important;
-        margin-left: 5%;
-    }
-
-    .divCardGerencia{
-        margin-left: 15% !important; 
-        width: 150px !important;
-    }
-
-    .fh5co-heading p{
-        font-size: 80% !important;
-    }
-
-    .tituloSlide{
-        font-size: 36px !important;
-        word-break: normal;
-    }
-}
-
-@media only screen and (min-width : 360px) and (max-width:767px){
-
-    /*----------------*/
-    /*    INICIO     */ 
-    /*--------------*/
-    .fh5co-tab-content{           
-        width: 300px !important;    
-    }
-
-    .fh5co-tabs {
-        width: 300px !important;
-    }
-
-    .fh5co-tabs li {  
-        width: 400px;       
-        display: block !important;   
-
-    }
-
-    #veritas{
-        width: 100%; 
-        height: 150px;
-    }
-
-    .fh5co-tab-content p{
-        font-size: 12px;
-    }
-
-    #owl-clientes{
-        width: 250px !important;
-        margin-left: 10%;
-    }
-
-    .card-content p{
-        font-size: 80%;
-    }
-
-    #card2{
-        padding-bottom: 1%;      
-    }
-
-    .imgPerfil{
-        width: 200px !important;
-        margin-left: 3%;
-    }
-
-    .divCardGerencia{
-        margin-left: 12% !important; 
-        width: 180px !important;
-    }
-
-    .fh5co-heading p{
-        font-size: 80% !important;
-    }
-
-}
-
-
-@media only screen and (min-width : 768px) and (max-width:799px) {
-
-    .fh5co-tab-content{           
-        width: 600px !important;       
-    }
-
-    .fh5co-tabs {      
-        width: 600px !important;
-        margin-left: 0%;           
-    }
-
-    #card2{
-        padding-bottom: 35% !important;      
-    }
-
-    #card3{
-        padding-bottom: 15%;
-    }
-
-    .card-content p{
-        font-size: 80%;
-    }
-
-    .imgPerfil{
-        width: 300px !important;    
-        margin-left: 25% !important;
-    }
-
-    .divCardGerencia{
-        margin-left: 30% !important; 
-        width: 220px;
-    }
-
-    #veritas{
-        width: 300px !important;
-        height: auto;
-    }
-
-    #owl-clientes{
-        width: 550px !important;
-
-    }
-}
-
-@media only screen and (min-width: 800px) and (max-width: 979px){
-
-    .fh5co-tab-content{           
-        width: 350px !important ;   
-    }
-
-    .fh5co-tabs {      
-        width: 380px;       
-    }
-
-    .fh5co-tabs a {      
-        font-size: 50% !important; 
-    }
-
-    #card2{
-        padding-bottom: 35% !important;      
-    }
-
-    #card3{
-        padding-bottom: 18% !important;
-    }
-
-    #card6{
-        padding-bottom: 18% !important;
-    }
-
-    .imgPerfil{
-        width: 300px !important;    
-        margin-left: 25% !important;
-    }
-
-    .divCardGerencia{
-        margin-left: 30% !important; 
-        width: 220px;
-    }
-
-    #veritas{
-        width: 300px !important;
-        height: auto;
-    }
-
-    #owl-clientes{
-        width: 600px !important;
-
-    }
-}
-
-
-
-@media only screen and (min-width: 980px) and (max-width: 1279px){
-
-    .fh5co-tab-content{           
-        width: 450px !important;   
-    }
-
-    .fh5co-tabs {      
-        width: 450px !important;       
-    }
-
-    .imgPerfil{
-        width: 340px !important;
-        margin-left: 28% !important;
-    }
-
-    #card2{
-        padding-bottom: 13% !important;      
-    }
-
-    #card3{
-        padding-bottom:0%;
-    }
-
-    .divCardGerencia{
-        margin-left: 38% !important; 
-        width: 300px;
-    }
-
-    #veritas{
-        width: 300px !important;
-        height: 150px;
-    }
-
-    #owl-clientes{
-        width: 700px !important;
-        margin-left: 2%;
-    }
-}
 
 @media only screen and (max-width: 1280px){
     #card2{
@@ -1890,15 +1534,394 @@ input::selection{
     }
 }
 
-#sidenav-overlay{
-    display: none !important;
+
+
+@media screen and (max-width: 1200px) {
+    #fh5co-about .fh5co-2col-inner {
+        width: 485px;
+    }
+
+    #fh5co-gallery .fh5co-item .fh5co-copy > .fh5co-copy-inner {
+        height: 200px;
+    }
+
+    #fh5co-gallery .fh5co-item .fh5co-copy {
+        height: 200px;
+    }
+
+    #fh5co-gallery .fh5co-item {
+        height: 200px;
+    }
 }
 
-.button-collapse:focus{
-    color:#888;
+@media only screen and (max-width: 1160px) {
+    
+    #logoAxioma{         
+        display: none;
+    }
+
+    .navPrincipal li a{
+        font-size: 14px;
+    }
 }
 
-.tituloSlide{
-    font-size: 80%;
-    word-break: normal;
+
+@media only screen and (max-width: 980px){
+    .fh5co-tab-content{           
+        width: 450px;   
+    }
+
+    .fh5co-tabs-container .fh5co-tabs {      
+        width: 500px;       
+    }
+
+    .imgPerfil{
+        width: 340px;
+        margin-left: 28%;
+    }
+
+    #card2{
+        padding-bottom: 13%;      
+    }
+
+    #card3{
+        padding-bottom:0%;
+    }
+
+    .divCardGerencia{
+        margin-left: 38%; 
+        width: 300px;
+    }
+
+    #veritas{
+        width: 300px;
+        height: 150px;
+    }
+
+    #owl-clientes{
+        width: 700px;
+        margin-left: 2%;
+    }
+
+    .sm{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #logoAxioma{         
+        display: block;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #fh5co-about .fh5co-2col-inner {
+        width: 375px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+
+    .fh5co-tab-content{           
+        width: 350px;   
+    }
+
+    .fh5co-tabs-container .fh5co-tabs {      
+        width:400px;       
+    }
+
+    .fh5co-tabs-container .fh5co-tabs a {      
+        font-size: 20px; 
+    }
+
+    #card2{
+        padding-bottom: 35%;      
+    }
+
+    #card3{
+        padding-bottom: 17%;
+    }
+
+    #card6{
+        padding-bottom: 18%;
+    }
+
+    .divCardGerencia{
+        margin-left: 30%; 
+        width: 220px;
+    }
+
+    #veritas{
+        width: 300px;
+        height: auto;
+    }
+
+    #owl-clientes{
+        width: 600px;
+    }
+}
+
+
+@media only screen and (max-width : 768px){
+
+    #fh5co-gallery .fh5co-item {
+        width: 50%;
+    }
+
+    #fh5co-team {
+        padding: 3em 0;
+    }
+    .fh5co-tabs-container .fh5co-tabs{
+        width: 660px;
+    }
+
+    .fh5co-tabs-container .fh5co-tab-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .fh5co-grid .fh5co-grid-item {
+        height: 300px;
+    }
+
+    .fh5co-grid {
+        padding-left: 0em;
+    }    
+
+    #fh5co-offcanvas {
+        display: block;
+    }
+
+    #fh5co-about .fh5co-2col-inner.right {
+        float: none;
+    }
+
+    #fh5co-container, #fh5co-footer, .fh5co-nav-toggle {
+        -moz-transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+    .js-sticky {
+        display: none;
+    }
+
+    .fh5co-nav-toggle {
+        display: block;
+    }
+
+    #fh5co-about .fh5co-2col-inner.left {
+        float: none;
+    }
+
+    #fh5co-services {
+        padding: 5em 0 3em 0;
+    }
+
+    .fh5co-tab-content{           
+        width: 600px;       
+    }
+
+
+    #card2{
+        padding-bottom: 35%;      
+    }
+
+    #card3{
+        padding-bottom: 3%;
+    }
+
+    #card6{
+        padding-bottom: 2%;
+    }
+
+    .card-content p{
+        font-size: 80%;
+    }
+
+    .divCardGerencia{
+        margin-left: 30%; 
+        width: 220px;
+    }
+
+    #veritas{
+        width: 300px;
+        height: auto;
+    }
+
+    #owl-clientes{
+        width: 550px;
+    }
+
+    .fh5co-heading .heading {
+        font-size: 30px;
+    }
+
+    .fh5co-heading .sub-heading {
+        font-size: 18px;
+    }
+
+    #fh5co-about .fh5co-2col {
+        width: 100%;
+    }
+
+    #fh5co-about .fh5co-2col-inner {
+        width: 100%;
+        padding: 2em 0 3em 0;
+    }
+}
+
+@media only screen and (max-width : 480px){
+
+    .fh5co-tab-content{           
+        width: 400px;    
+    }
+    .fh5co-tabs-container .fh5co-tabs{
+        width: 430px;
+    }
+
+    .fh5co-tabs-container .fh5co-tabs li {       
+        display: inline-block;     
+        width: 100%;    
+        text-align: center;
+    }
+
+    .fh5co-text{
+        display: none;
+    }
+
+
+    .fh5co-grid .fh5co-grid-item {
+        width: 100%;
+        height: 200px;
+    } 
+
+    #fh5co-gallery .fh5co-item {
+        width: 100%;
+    }
+
+    .fh5co-tabs-container .fh5co-tabs li {
+        width: 100%;
+    }
+
+    .fh5co-team img{
+        width: 50px;
+    }
+
+    #owl-clientes{
+        width: 250px;
+        margin-left: 17%;
+    }
+}
+
+
+@media only screen and (max-width : 360px){
+
+    /*----------------*/
+    /*    INICIO     */ 
+    /*--------------*/
+
+    .fh5co-tab-content{           
+        width: 300px;    
+    }
+
+    .fh5co-tabs-container .fh5co-tabs li {       
+        display: block;     
+        width: 100%;    
+        text-align: center;
+    }
+
+    .fh5co-text{
+        display: none;
+    }
+
+    #veritas{
+        width: 100%; 
+        height: 150px;
+    }
+
+    .fh5co-tab-content p{
+        font-size: 12px;
+    }
+
+    #owl-clientes{
+        width: 250px;
+        margin-left: 10%;
+    }
+
+    .card-content p{
+        font-size: 80%;
+    }
+
+    #card2{
+        padding-bottom: 1%;      
+    }
+
+    .imgPerfil{
+        width: 200px;
+        margin-left: 3%;
+    }
+
+    .divCardGerencia{
+        margin-left: 12%; 
+        width: 180px;
+    }
+
+    .fh5co-heading p{
+        font-size: 80%;
+    }
+
+    .gototop {
+        bottom: 10px;
+        right: 40px;       
+    }
+
+}
+
+
+@media only screen and (max-width : 320px){
+      
+    .fh5co-tab-content{           
+        width: 250px;    
+    }  
+
+    .fh5co-tabs-container .fh5co-tabs li {       
+        display: block;     
+        width: 100%;    
+        text-align: center;
+    }
+
+    .fh5co-text{
+        display: none;
+    }
+
+    .imgPerfil{
+        width: 180px;
+        margin-left: 3%;
+    }
+
+    #veritas{
+        width: 220px;
+        height: auto;
+    }
+
+    #owl-clientes{
+        width: 250px;
+        margin-left: 5%;
+    }
+
+    .divCardGerencia{
+        margin-left: 15%; 
+        width: 150px;
+    }
+
+    .fh5co-heading p{
+        font-size: 80%;
+    }
+
+    .tituloSlide{
+        font-size: 36px;
+        word-break: normal;
+    }
+
 }

@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> 
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js" lang="es"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +12,8 @@
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <meta name="author" content="" />
-        
-        <link href="images/LogoAxioma.jpg" rel="SHORTCUT ICON">
 
+        <link href="images/LogoAxioma.jpg" rel="SHORTCUT ICON">
         <!-- Animate.css -->
         <link rel="stylesheet" href="css/animate.css">
         <!-- Icomoon Icon Fonts-->
@@ -45,10 +44,10 @@
         <div id="fh5co-container">
             <div class="navbar-fixed">
                 <nav class="z-depth-3">
-                    <div class="nav-wrapper nav-container">                      
-                        <a href="index.php" class="brand-logo left"><img id="logoAxioma" src="images/LogoBanner.png" alt="logoAxioma"></a>
-                        <a href="#" data-activates="barraLateral" class="button-collapse right"><i class="material-icons">menu</i></a>
+                    <div class="nav-wrapper nav-container">                    
 
+                        <a href="#" data-activates="barraLateral" class="button-collapse right"><i class="material-icons">menu</i></a>
+                        <a href="index.php" class="brand-logo left"><img id="logoAxioma" src="images/LogoBanner.png" alt="logoAxioma"></a>
                         <ul class="right hide-on-med-and-down navPrincipal">
                             <li><a href="#fh5co-home" class="hvr-underline-reveal active">Inicio</a></li>
                             <li><a href="#sobreNosotros" class="hvr-underline-reveal">Sobre Nosotros</a></li>
@@ -59,8 +58,7 @@
                             <li><a href="#fh5co-gallery" class="hvr-underline-reveal">Proyectos</a></li>
                             <li><a href="#fh5co-contacto" class="hvr-underline-reveal">Contacto</a></li>
                             <li><a href="concesiones.php" class="hvr-underline-reveal">&Aacute;reas</a></li>
-                            <li><a href="intranet.php" class="hvr-underline-reveal">Intranet</a></li>
-                            <li><a href="images/brochure_axioma.pdf" target="_blank" class="hvr-underline-reveal">Brochure</a></li>
+                            <li><a href="intranet.php" class="hvr-underline-reveal">Intranet</a></li>              
                         </ul>
 
                         <!--Side nav-->
@@ -75,8 +73,6 @@
                             <li><a href="#fh5co-contacto" class="hvr-underline-reveal">Contacto</a></li>
                             <li><a href="concesiones.php" class="hvr-underline-reveal">&Aacute;reas</a></li>
                             <li><a href="intranet.php" class="hvr-underline-reveal">Intranet</a></li>
-                            <li><a href="images/brochure_axioma.pdf" target="_blank" class="hvr-underline-reveal">Brochure</a></li>
-
                         </ul>
                     </div>
                 </nav>
@@ -101,7 +97,7 @@
 
                     <div class="fh5co-2col">
                         <div class="fh5co-2col-inner left">
-                            
+
                             <div class="fh5co-tabs-container">
                                 <ul class="fh5co-tabs fh5co-three">
                                     <li class="active"><a href="#" data-tab="nosotros">Nosotros</a></li>
@@ -124,7 +120,7 @@
                                 </div>
 
                                 <div class="fh5co-tab-content" data-tab-content="vision">
-                                                          
+
                                     <ul class="checked">
                                         <li class="text-justify">Ser una de las mejores Consultoras de Ingeniería del país, avalada por su imagen confiable de óptima gestión y adecuado uso de los recursos.</li>
                                         <li class="text-justify">Captar nuevos Clientes y afianzar una posición de liderazgo en diferentes áreas de la Ingeniería, tanto en el ámbito nacional como internacional.</li>
@@ -185,7 +181,7 @@
                                     <img class="activator" src="images/servicios/inspeccion.jpg" alt="servicio2"/>
                                 </div>
                                 <div class="card-content">
-                                    <p class="text-justify">Inspecci&oacute;n T&eacute;cnica de Obras en Construcci&oacute;n.</p>
+                                    <p id="card2" class="text-justify">Inspecci&oacute;n T&eacute;cnica de Obras en Construcci&oacute;n.</p>
                                     <hr/>
                                     <p><a class="handHover activator">Leer Más</a></p>
                                 </div>
@@ -202,7 +198,7 @@
                                     <img class="activator" src="images/servicios/inspeccionTecnica.jpg" alt="servicio3"/>
                                 </div>
                                 <div class="card-content">
-                                    <p class="text-justify">Inspecci&oacute;n T&eacute;cnica de Obras Concesionadas en Fase de Explotaci&oacute;n.</p>
+                                    <p id="card3" class="text-justify">Inspecci&oacute;n T&eacute;cnica de Obras Concesionadas en Fase de Explotaci&oacute;n.</p>
                                     <hr/>
                                     <p><a class="handHover activator">Leer Más</a></p>
                                 </div>
@@ -247,7 +243,7 @@
                                     <span class="card-title grey-text text-darken-4">(T&iacute;tulo)<i class="material-icons right">close</i></span>
                                     <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                 </div>
-                            </div>   
+                            </div>  
 
                         </div>
                         <div class="col s12 sm m4">
@@ -283,18 +279,12 @@
                         <div class="col sm s12 m3">
                             <div class="card wow fadeIn">
                                 <div class="card-image waves-effect waves-block waves-light center hvr-grow">
-                                    <img src="images/icono.png" alt="" class="responsive-img activator">
+                                    <img src="images/icono.png" alt="" class="img-perfil  activator">
                                     <span class="activator grey-text text-darken-4">Sergio González V.</span>                                
                                     <h6>Gerente General</h6>      
                                 </div>
                                 <div class="card-content hvr-shutter-out-horizontal">
                                     <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident.</p>
-                                    <!--                                    <ul class="social">
-                                                                            <li><a href="#"><i class="icon-facebook"></i></a></li>
-                                                                            <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                                                            <li><a href="#"><i class="icon-dribbble"></i></a></li>
-                                                                            <li><a href="#"><i class="icon-instagram"></i></a></li>
-                                                                        </ul>-->
                                     <hr/>
                                     <p><a class="handHover activator">Leer Más</a></p>
                                 </div>
@@ -316,13 +306,6 @@
                                 <div class="card-content hvr-shutter-out-horizontal">
 
                                     <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident.</p>
-                                    <!--                                <ul class="social">
-                                                                        <li><a href="#"><i class="icon-facebook"></i></a></li>
-                                                                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                                                        <li><a href="#"><i class="icon-dribbble"></i></a></li>
-                                                                        <li><a href="#"><i class="icon-instagram"></i></a></li>
-                                                                    </ul>
-                                    -->
                                     <hr/>
                                     <p><a class="handHover activator">Leer Más</a></p>
                                 </div>
@@ -342,13 +325,6 @@
                                 </div>
                                 <div class="card-content hvr-shutter-out-horizontal">                                                   
                                     <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident.</p>
-                                    <!--                                <ul class="social">
-                                                                        <li><a href="#"><i class="icon-facebook"></i></a></li>
-                                                                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                                                        <li><a href="#"><i class="icon-dribbble"></i></a></li>
-                                                                        <li><a href="#"><i class="icon-instagram"></i></a></li>
-                                                                    </ul>
-                                    -->
                                     <hr/>
                                     <p><a class="handHover activator">Leer Más</a></p>
                                 </div>
@@ -370,12 +346,6 @@
                                 <div class="card-content hvr-shutter-out-horizontal">
 
                                     <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident.</p>
-                                    <!--                                <ul class="social">
-                                                                        <li><a href="#"><i class="icon-facebook"></i></a></li>
-                                                                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                                                                        <li><a href="#"><i class="icon-dribbble"></i></a></li>
-                                                                        <li><a href="#"><i class="icon-instagram"></i></a></li>
-                                                                    </ul>-->
                                     <hr/>
                                     <p><a class="handHover activator">Leer Más</a></p>
                                 </div>
@@ -399,7 +369,7 @@
                         <div class="col m12 center fh5co-heading">
                             <h2 id="tituloCertificacion" class="margin-top wow fadeIn">Certificaci&oacute;n</h2>
                             <p class="text-justify wow fadeIn">Durante el año 2007, Axioma Ingenieros Consultores S.A. obtiene el Certificado de aprobación del Sistema de Gestión de Calidad para todas las áreas de producción, luego de ser exitosamente auditada y aprobada la re certificación con la Norma ISO 9001:2008 por la empresa BUREAU VERITAS Ltda. Y bajo la constante de mantenerse como una organización competitiva y en constante renovación, implementa un Sistema de Gestión de Calidad según los principios de la serie de Normas Internacionales ISO 9001, que establece un especial cuidado en la calidad de productos y procesos, gestión y atención al cliente. </p>
-                            <img id="veritas" src="images/BV_Certification_ISO_9001.jpg" class="responsive-img wow fadeIn"> 
+                            <img id="veritas" src="images/BV_Certification_ISO_9001.jpg" alt="veritas" class="responsive-img wow fadeIn"> 
                         </div>
                     </div>
 
@@ -534,7 +504,7 @@
 
         <div  class="row" >
             <footer  class="page-footer">
-              <?php include 'footer.php';?>
+                <?php include 'footer.php'; ?>
             </footer>
         </div>
 
